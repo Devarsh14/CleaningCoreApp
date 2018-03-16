@@ -1,0 +1,10 @@
+/Users/Dev/dotNetCoreCliTest/bin/Debug/netcoreapp2.0/dotNetCoreCliTest.deps.json
+/Users/Dev/dotNetCoreCliTest/bin/Debug/netcoreapp2.0/dotNetCoreCliTest.runtimeconfig.json
+/Users/Dev/dotNetCoreCliTest/bin/Debug/netcoreapp2.0/dotNetCoreCliTest.runtimeconfig.dev.json
+/Users/Dev/dotNetCoreCliTest/bin/Debug/netcoreapp2.0/dotNetCoreCliTest.dll
+/Users/Dev/dotNetCoreCliTest/bin/Debug/netcoreapp2.0/dotNetCoreCliTest.pdb
+/Users/Dev/dotNetCoreCliTest/obj/Debug/netcoreapp2.0/dotNetCoreCliTest.csproj.CoreCompileInputs.cache
+/Users/Dev/dotNetCoreCliTest/obj/Debug/netcoreapp2.0/dotNetCoreCliTest.AssemblyInfoInputs.cache
+/Users/Dev/dotNetCoreCliTest/obj/Debug/netcoreapp2.0/dotNetCoreCliTest.AssemblyInfo.cs
+/Users/Dev/dotNetCoreCliTest/obj/Debug/netcoreapp2.0/dotNetCoreCliTest.dll
+/Users/Dev/dotNetCoreCliTest/obj/Debug/netcoreapp2.0/dotNetCoreCliTest.pdb
