@@ -20,6 +20,7 @@
 
 -- priority of issue 
 -- severity of issue 
+-- New issue added
 
 
 -- How organisation can help cleaner to understand issue 
