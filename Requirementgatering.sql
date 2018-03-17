@@ -26,4 +26,33 @@
 -- How organisation can help cleaner to understand issue 
 
 
+-- Docker command user to create schema using Make 
+-- Docker can be helpful in releasing database and tesing on various environment 
+--- Docker image with Business logic can be created and shipped to various server on cusomter according to their need and scale 
+-- School managment system -- same emage multiple container -- multitenant with unique database for each clienr -- with on file data
 
+-------------
+--sudo docker run -e 'ACCEPT_EULA=Y' -e 'MSSQL_SA_PASSWORD=Dcs1989..!'    -p 1433:1433 --name devarshCleaningSoftwareimg  -d microsoft/mssql-server-linux:2017-latest
+--------
+-- Working docker image command 
+
+-- pull docker image
+-- run docker image --
+-- provide strong password and -- name is a container name 
+--connect with sql operations studio 
+-- localhost -- sa user name 
+
+--- Creat a new DataBase --
+-- Cleaning software logic seats in this database 
+-- multi schme 
+-- in Future can be multidatabase like -- diffrent database -- for example useage of azure vertical query from two diffrent kind of database 
+-- Like Managment -- Operations two databases and query can be done using them 
+-- learned usage of ssis -- in visual studion to transfer data
+
+-- create database [CleaningSoftwareLogic]
+-- USE DATABASE  CleaningSoftwareLogic
+
+create table [Cleaning_Service_Providers]
+(
+    
+)
