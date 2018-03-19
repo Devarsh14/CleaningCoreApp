@@ -50,9 +50,15 @@
 -- learned usage of ssis -- in visual studion to transfer data
 
 -- create database [CleaningSoftwareLogic]
--- USE DATABASE  CleaningSoftwareLogic
+-- USE   CleaningSoftwareLogic
+
+--DROP TABLE Cleaning_Service_Providers
 
 create table [Cleaning_Service_Providers]
 (
-    
+   --NAME OF SOFTWARE PRODUCT 
+   id UNIQUEIDENTIFIER
+   ,Company_Name nvarchar(300) 
 )
+
+ALTER table Cleaning_Service_Providers  ADD CONSTRAINT Cleaning_Service_Providers_ID DEFAULT 
