@@ -34,6 +34,11 @@
 -------------
 --sudo docker run -e 'ACCEPT_EULA=Y' -e 'MSSQL_SA_PASSWORD=Dcs1989..!'    -p 1433:1433 --name devarshCleaningSoftwareimg  -d microsoft/mssql-server-linux:2017-latest
 --------
+
+
+-- Docker start container name 
+-- docker ps -a
+-- docker image ls 
 -- Working docker image command 
 
 -- pull docker image
