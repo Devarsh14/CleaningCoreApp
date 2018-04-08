@@ -30,5 +30,5 @@ working command example : dotnet sln cleaningCoreapp.sln add cleaningsoftunittes
 -- dotnet run --project cleaningsoftWebApp/ 0r dotnet run -project cleaningsoftWebApp/
 withoud moving to particular directory you can run the whole command.
 
-
+-- you can not run same csproj file from same machine using diffent terminals gives error and closed unexpectedly.
 */
