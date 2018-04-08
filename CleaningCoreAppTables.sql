@@ -74,18 +74,19 @@ DROP TABLE Cleaning_Service_Providers
 */
 -- Name of Cleaning company and which  kind of services one cleaning company can provide to the customer 
 -- Many cleaning company can provide multiple services to the customer 
-IF OBJECT_ID('dbo.Cleaning_Service_Providers', 'U') IS NOT NULL 
-  DROP TABLE dbo.Cleaning_Service_Providers;
-create table [Cleaning_Service_Providers]
-(
-   --NAME OF SOFTWARE PRODUCT 
-   id UNIQUEIDENTIFIER
-   ,Company_Name nvarchar(300) 
-)
-ALTER TABLE [Cleaning_Service_Providers] add  CONSTRAINT Cleaning_Service_Providers_ID DEFAULT  NEWSEQUENTIALID ( ) for ID
+-- IF OBJECT_ID('dbo.Cleaning_Service_Providers', 'U') IS NOT NULL 
+--   DROP TABLE dbo.Cleaning_Service_Providers;
+-- create table [Cleaning_Service_Providers]
+-- (
+--    --NAME OF SOFTWARE PRODUCT 
+--      [Id] UNIQUEIDENTIFIER NOT NULL
+--    ,Company_Name nvarchar(300) 
+-- )
+-- ALTER TABLE [Cleaning_Service_Providers] add  CONSTRAINT Cleaning_Service_Providers_ID DEFAULT  NEWSEQUENTIALID () for ID
+-- ALTER TABLE Cleaning_Service_Providers ADD CONSTRAINT PK_Cleaning_Service_Providers_ID PRIMARY KEY (ID);
 
--- Data seeding for the Table ----
-Insert INto Cleaning_Service_Providers(Company_Name) VALUES('sahajCleanig')
+-- -- Data seeding for the Table ----
+-- Insert INto Cleaning_Service_Providers(Company_Name) VALUES('sahajCleanig')
 
 --- Create table for celaning services type -- This is a cusotme datatype or in Entity framework can be the entity for class which is it selft user defined type 
 --- like int user defined types are class or structure 
@@ -95,7 +96,7 @@ IF OBJECT_ID('dbo.Cleaning_Service_Type', 'U') IS NOT NULL
   DROP TABLE dbo.Cleaning_Service_Type;
 CREATE TABLE [Cleaning_Service_Type]
 (
-    ID UNIQUEIDENTIFIER NOT NULL,
+    [Id] UNIQUEIDENTIFIER NOT NULL,
     Service_Type_Name NVARCHAR(300)
 )
 ALTER TABLE Cleaning_Service_Type ADD CONSTRAINT PK_Cleaning_Service_type_ID PRIMARY KEY (ID);
