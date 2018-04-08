@@ -12583,12 +12583,20 @@
           },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
+<<<<<<< HEAD
             "version": "[2.0.2, )"
           },
           "Microsoft.NETCore.App": {
             "target": "Package",
             "version": "[2.0.0, )",
             "autoReferenced": true
+=======
+            "version": "2.0.0"
+          },
+          "Microsoft.EntityFrameworkCore.SqlServer": {
+            "target": "Package",
+            "version": "2.0.2"
+>>>>>>> 7ab86f10058c41ae4a93a25f3d4eb6129325aacc
           }
         },
         "imports": [
