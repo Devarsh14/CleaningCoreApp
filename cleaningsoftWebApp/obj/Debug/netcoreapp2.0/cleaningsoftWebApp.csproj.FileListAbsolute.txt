@@ -8,3 +8,13 @@
 /Users/Dev/dotNetCoreCliTest/cleaningsoftWebApp/obj/Debug/netcoreapp2.0/cleaningsoftWebApp.AssemblyInfo.cs
 /Users/Dev/dotNetCoreCliTest/cleaningsoftWebApp/obj/Debug/netcoreapp2.0/cleaningsoftWebApp.dll
 /Users/Dev/dotNetCoreCliTest/cleaningsoftWebApp/obj/Debug/netcoreapp2.0/cleaningsoftWebApp.pdb
+/Users/Dev/CleaningCoreApp/cleaningsoftwebapp/bin/Debug/netcoreapp2.0/cleaningsoftWebApp.deps.json
+/Users/Dev/CleaningCoreApp/cleaningsoftwebapp/bin/Debug/netcoreapp2.0/cleaningsoftWebApp.runtimeconfig.json
+/Users/Dev/CleaningCoreApp/cleaningsoftwebapp/bin/Debug/netcoreapp2.0/cleaningsoftWebApp.runtimeconfig.dev.json
+/Users/Dev/CleaningCoreApp/cleaningsoftWebApp/bin/Debug/netcoreapp2.0/cleaningsoftWebApp.dll
+/Users/Dev/CleaningCoreApp/cleaningsoftWebApp/bin/Debug/netcoreapp2.0/cleaningsoftWebApp.pdb
+/Users/Dev/CleaningCoreApp/cleaningsoftWebApp/obj/Debug/netcoreapp2.0/cleaningsoftWebApp.csproj.CoreCompileInputs.cache
+/Users/Dev/CleaningCoreApp/cleaningsoftWebApp/obj/Debug/netcoreapp2.0/cleaningsoftWebApp.AssemblyInfoInputs.cache
+/Users/Dev/CleaningCoreApp/cleaningsoftWebApp/obj/Debug/netcoreapp2.0/cleaningsoftWebApp.AssemblyInfo.cs
+/Users/Dev/CleaningCoreApp/cleaningsoftWebApp/obj/Debug/netcoreapp2.0/cleaningsoftWebApp.dll
+/Users/Dev/CleaningCoreApp/cleaningsoftWebApp/obj/Debug/netcoreapp2.0/cleaningsoftWebApp.pdb

@@ -5621,9 +5621,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Dev/CleaningCoreApp/CleaningUITesting/CleaningUITesting.csproj",
+      "projectUniqueName": "/Users/Dev/CleaningCoreApp/cleaninguitesting/CleaningUITesting.csproj",
       "projectName": "CleaningUITesting",
-      "projectPath": "/Users/Dev/CleaningCoreApp/CleaningUITesting/CleaningUITesting.csproj",
+      "projectPath": "/Users/Dev/CleaningCoreApp/cleaninguitesting/CleaningUITesting.csproj",
       "packagesPath": "/Users/Dev/.nuget/packages/",
       "outputPath": "/Users/Dev/CleaningCoreApp/CleaningUITesting/obj/",
       "projectStyle": "PackageReference",
