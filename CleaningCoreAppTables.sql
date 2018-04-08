@@ -92,6 +92,7 @@ DROP TABLE Cleaning_Service_Providers
 --- like int user defined types are class or structure 
 
 --
+use CleaningSoftwareLogic
 IF OBJECT_ID('dbo.Cleaning_Service_Type', 'U') IS NOT NULL 
   DROP TABLE dbo.Cleaning_Service_Type;
 CREATE TABLE [Cleaning_Service_Type]
@@ -115,3 +116,6 @@ ALTER TABLE Cleaning_Worker_Type ADD CONSTRAINT PK_Cleaning_worker_type_ID PRIMA
 ALTER TABLE [Cleaning_Worker_Type] add  CONSTRAINT Cleaning_worker_Type_ID_Default DEFAULT  NEWSEQUENTIALID () for ID
 
 
+select * from Cleaning_Service_Type
+select * from Cleaning_Worker_Type
+select * from clea

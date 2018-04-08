@@ -5782,7 +5782,7 @@
       ]
     },
     "Microsoft.CodeAnalysis.Analyzers/1.1.0": {
-      "sha512": "HS3iRWZKcUw/8eZ/08GXKY2Bn7xNzQPzf8gRPHGSowX7u7XXu9i9YEaBeBNKUXWfI7qjvT2zXtLUvbN0hds8vg==",
+      "sha512": "knVvbIQL7ZCWEt+9IypgiQpxJHw/JjrtrXO5E/BCQD8Cx/elDjePgPrzFm0alDEyT73nrFb7ekFvUDvlN0VHaw==",
       "type": "package",
       "path": "microsoft.codeanalysis.analyzers/1.1.0",
       "files": [
@@ -9594,7 +9594,7 @@
       ]
     },
     "System.Linq.Queryable/4.0.1": {
-      "sha512": "Yn/WfYe9RoRfmSLvUt2JerP0BTGGykCZkQPgojaxgzF2N0oPo+/AhB8TXOpdCcNlrG3VRtsamtK2uzsp3cqRVw==",
+      "sha512": "CFMqx5c59HvezIrZke4BBqA2tPch0DXLy3Op9JfH/AnwV6r+MGPIfd59o5k6hGH+csdtpjFoqs/Ujfw9XQgqwA==",
       "type": "package",
       "path": "system.linq.queryable/4.0.1",
       "files": [
@@ -12534,33 +12534,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Shivani\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/Dev/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Shivani\\Source\\Repos\\CleaningCoreApp\\cleaningsoftWebApp\\cleaningsoftWebApp.csproj",
+      "projectUniqueName": "/Users/Dev/CleaningCoreApp/cleaningsoftWebApp/cleaningsoftWebApp.csproj",
       "projectName": "cleaningsoftWebApp",
-      "projectPath": "C:\\Users\\Shivani\\Source\\Repos\\CleaningCoreApp\\cleaningsoftWebApp\\cleaningsoftWebApp.csproj",
-      "packagesPath": "C:\\Users\\Shivani\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Shivani\\Source\\Repos\\CleaningCoreApp\\cleaningsoftWebApp\\obj\\",
+      "projectPath": "/Users/Dev/CleaningCoreApp/cleaningsoftWebApp/cleaningsoftWebApp.csproj",
+      "packagesPath": "/Users/Dev/.nuget/packages/",
+      "outputPath": "/Users/Dev/CleaningCoreApp/cleaningsoftWebApp/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Shivani\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "/Users/Dev/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -12577,26 +12572,18 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.All": {
-            "target": "Package",
-            "version": "[2.0.0, )"
-          },
-          "Microsoft.EntityFrameworkCore.SqlServer": {
-            "target": "Package",
-<<<<<<< HEAD
-            "version": "[2.0.2, )"
-          },
           "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "[2.0.0, )",
+            "version": "2.0.0",
             "autoReferenced": true
-=======
+          },
+          "Microsoft.AspNetCore.All": {
+            "target": "Package",
             "version": "2.0.0"
           },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "2.0.2"
->>>>>>> 7ab86f10058c41ae4a93a25f3d4eb6129325aacc
           }
         },
         "imports": [
@@ -12606,5 +12593,13 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file /Users/Dev/CleaningCoreApp/cleaningsoftWebApp/obj/cleaningsoftWebApp.csproj.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
