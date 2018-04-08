@@ -8,7 +8,7 @@ INSERT into Cleaning_Service_Type (Service_Type_Name) VALUES ('House Cleaning'),
 ('Bond Cleaning')
 
 
-SELECT * from Cleaning_Service_Type
+--SELECT * from Cleaning_Service_Type
 
 
 
