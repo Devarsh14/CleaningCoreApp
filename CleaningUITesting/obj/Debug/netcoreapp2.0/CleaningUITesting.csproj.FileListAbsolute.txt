@@ -11,3 +11,16 @@
 /Users/Dev/CleaningCoreApp/CleaningUITesting/obj/Debug/netcoreapp2.0/CleaningUITesting.AssemblyInfo.cs
 /Users/Dev/CleaningCoreApp/CleaningUITesting/obj/Debug/netcoreapp2.0/CleaningUITesting.dll
 /Users/Dev/CleaningCoreApp/CleaningUITesting/obj/Debug/netcoreapp2.0/CleaningUITesting.pdb
+C:\Users\Shivani\Source\Repos\CleaningCoreApp\cleaninguitesting\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Shivani\Source\Repos\CleaningCoreApp\cleaninguitesting\bin\Debug\netcoreapp2.0\xunit.runner.utility.netstandard15.dll
+C:\Users\Shivani\Source\Repos\CleaningCoreApp\cleaninguitesting\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netstandard15.dll
+C:\Users\Shivani\Source\Repos\CleaningCoreApp\cleaninguitesting\bin\Debug\netcoreapp2.0\CleaningUITesting.deps.json
+C:\Users\Shivani\Source\Repos\CleaningCoreApp\cleaninguitesting\bin\Debug\netcoreapp2.0\CleaningUITesting.runtimeconfig.json
+C:\Users\Shivani\Source\Repos\CleaningCoreApp\cleaninguitesting\bin\Debug\netcoreapp2.0\CleaningUITesting.runtimeconfig.dev.json
+C:\Users\Shivani\Source\Repos\CleaningCoreApp\cleaninguitesting\bin\Debug\netcoreapp2.0\CleaningUITesting.dll
+C:\Users\Shivani\Source\Repos\CleaningCoreApp\cleaninguitesting\bin\Debug\netcoreapp2.0\CleaningUITesting.pdb
+C:\Users\Shivani\Source\Repos\CleaningCoreApp\cleaninguitesting\obj\Debug\netcoreapp2.0\CleaningUITesting.csproj.CoreCompileInputs.cache
+C:\Users\Shivani\Source\Repos\CleaningCoreApp\cleaninguitesting\obj\Debug\netcoreapp2.0\CleaningUITesting.AssemblyInfoInputs.cache
+C:\Users\Shivani\Source\Repos\CleaningCoreApp\cleaninguitesting\obj\Debug\netcoreapp2.0\CleaningUITesting.AssemblyInfo.cs
+C:\Users\Shivani\Source\Repos\CleaningCoreApp\cleaninguitesting\obj\Debug\netcoreapp2.0\CleaningUITesting.dll
+C:\Users\Shivani\Source\Repos\CleaningCoreApp\cleaninguitesting\obj\Debug\netcoreapp2.0\CleaningUITesting.pdb
