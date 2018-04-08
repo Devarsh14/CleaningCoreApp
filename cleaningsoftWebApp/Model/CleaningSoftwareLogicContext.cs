@@ -6,6 +6,7 @@ namespace cleaningsoftWebApp.Model
 {
     public partial class CleaningSoftwareLogicContext : DbContext
     {
+        public virtual DbSet<CleaningServiceProviders> CleaningServiceProviders { get; set; }
         public virtual DbSet<CleaningServiceType> CleaningServiceType { get; set; }
         public virtual DbSet<CleaningWorkerType> CleaningWorkerType { get; set; }
 
@@ -20,6 +21,17 @@ namespace cleaningsoftWebApp.Model
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<CleaningServiceProviders>(entity =>
+            {
+                entity.ToTable("Cleaning_Service_Providers");
+
+                entity.Property(e => e.Id).HasDefaultValueSql("(newsequentialid())");
+
+                entity.Property(e => e.CompanyName)
+                    .HasColumnName("Company_Name")
+                    .HasMaxLength(300);
+            });
+
             modelBuilder.Entity<CleaningServiceType>(entity =>
             {
                 entity.ToTable("Cleaning_Service_Type");
