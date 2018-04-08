@@ -22,5 +22,13 @@ working command example : dotnet sln cleaningCoreapp.sln add cleaningsoftunittes
 3.1 add projects to solution file using defining directory path and .csproj file. 
 - Need to provide an attention that at givan path .cs proj file is located
 
+4. dotnet build will build all the projects mentioned in solution...--> it will not run project if you have only solution fiel in main application directory
+-- it will give you an error no csproj files inside the folder. 
+-- Dotnet build inthe directory where .sln file located will build all the project.
+
+5. To run a project from specific directory without moving to that directory you can use 
+-- dotnet run --project cleaningsoftWebApp/ 0r dotnet run -project cleaningsoftWebApp/
+withoud moving to particular directory you can run the whole command.
+
 
 */
