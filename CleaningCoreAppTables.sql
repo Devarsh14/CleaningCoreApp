@@ -74,16 +74,16 @@ DROP TABLE Cleaning_Service_Providers
 */
 -- Name of Cleaning company and which  kind of services one cleaning company can provide to the customer 
 -- Many cleaning company can provide multiple services to the customer 
--- IF OBJECT_ID('dbo.Cleaning_Service_Providers', 'U') IS NOT NULL 
---   DROP TABLE dbo.Cleaning_Service_Providers;
--- create table [Cleaning_Service_Providers]
--- (
---    --NAME OF SOFTWARE PRODUCT 
---      [Id] UNIQUEIDENTIFIER NOT NULL
---    ,Company_Name nvarchar(300) 
--- )
--- ALTER TABLE [Cleaning_Service_Providers] add  CONSTRAINT Cleaning_Service_Providers_ID DEFAULT  NEWSEQUENTIALID () for ID
--- ALTER TABLE Cleaning_Service_Providers ADD CONSTRAINT PK_Cleaning_Service_Providers_ID PRIMARY KEY (ID);
+IF OBJECT_ID('dbo.Cleaning_Service_Providers', 'U') IS NOT NULL 
+  DROP TABLE dbo.Cleaning_Service_Providers;
+create table [Cleaning_Service_Providers]
+(
+   --NAME OF SOFTWARE PRODUCT 
+     [Id] UNIQUEIDENTIFIER NOT NULL
+   ,Company_Name nvarchar(300) 
+)
+ALTER TABLE [Cleaning_Service_Providers] add  CONSTRAINT Cleaning_Service_Providers_ID DEFAULT  NEWSEQUENTIALID () for ID
+ALTER TABLE Cleaning_Service_Providers ADD CONSTRAINT PK_Cleaning_Service_Providers_ID PRIMARY KEY (ID);
 
 -- -- Data seeding for the Table ----
 -- Insert INto Cleaning_Service_Providers(Company_Name) VALUES('sahajCleanig')
@@ -114,8 +114,3 @@ CREATE TABLE [Cleaning_Worker_Type]
 )
 ALTER TABLE Cleaning_Worker_Type ADD CONSTRAINT PK_Cleaning_worker_type_ID PRIMARY KEY (ID);
 ALTER TABLE [Cleaning_Worker_Type] add  CONSTRAINT Cleaning_worker_Type_ID_Default DEFAULT  NEWSEQUENTIALID () for ID
-
-
-select * from Cleaning_Service_Type
-select * from Cleaning_Worker_Type
-select * from clea
