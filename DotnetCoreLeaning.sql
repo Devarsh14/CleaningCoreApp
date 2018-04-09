@@ -83,10 +83,20 @@ dotnet ef dbcontext scaffold "Server=localhost;Database=CleaningSoftwareLogic;Us
 -- Final working command with overide
 -- dotnet ef dbcontext scaffold "Server=localhost;Database=CleaningSoftwareLogic;User ID=dev2;Password=Dcs1989.." Microsoft.EntityFrameworkCore.SqlServer -o Model -f
 */
-
+--Microsoft.EntityFrameworkCore need to install.
 -------------------------
 --How to use windows authentication to run entity framework core 
 -----------------------
 
 -- Desktop Sql server Ef core command to run coder 
 --Scaffold-DbContext "Data Source=Shivangini;Initial Catalog=CleaningSoftwareLogic;Integrated Security=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Force
+
+
+
+-- Lesson learned 
+--1) Data scaffolding can be done on using localhost , windows authenticaiton and Azure 
+-- Used all 3 ways 
+
+
+
+-- Keeep using things it will makes you master. 
