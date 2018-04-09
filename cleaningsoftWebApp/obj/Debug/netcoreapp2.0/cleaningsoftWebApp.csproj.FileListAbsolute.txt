@@ -28,3 +28,4 @@ C:\Users\Shivani\Source\Repos\CleaningCoreApp\cleaningsoftwebapp\obj\Debug\netco
 C:\Users\Shivani\Source\Repos\CleaningCoreApp\cleaningsoftwebapp\obj\Debug\netcoreapp2.0\cleaningsoftWebApp.AssemblyInfo.cs
 C:\Users\Shivani\Source\Repos\CleaningCoreApp\cleaningsoftwebapp\obj\Debug\netcoreapp2.0\cleaningsoftWebApp.dll
 C:\Users\Shivani\Source\Repos\CleaningCoreApp\cleaningsoftwebapp\obj\Debug\netcoreapp2.0\cleaningsoftWebApp.pdb
+C:\Users\Shivani\Source\Repos\CleaningCoreApp\cleaningsoftwebapp\obj\Debug\netcoreapp2.0\cleaningsoftWebApp.csprojResolveAssemblyReference.cache

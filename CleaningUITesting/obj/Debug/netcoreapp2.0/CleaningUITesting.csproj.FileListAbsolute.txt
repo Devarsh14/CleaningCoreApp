@@ -24,3 +24,4 @@ C:\Users\Shivani\Source\Repos\CleaningCoreApp\cleaninguitesting\obj\Debug\netcor
 C:\Users\Shivani\Source\Repos\CleaningCoreApp\cleaninguitesting\obj\Debug\netcoreapp2.0\CleaningUITesting.AssemblyInfo.cs
 C:\Users\Shivani\Source\Repos\CleaningCoreApp\cleaninguitesting\obj\Debug\netcoreapp2.0\CleaningUITesting.dll
 C:\Users\Shivani\Source\Repos\CleaningCoreApp\cleaninguitesting\obj\Debug\netcoreapp2.0\CleaningUITesting.pdb
+C:\Users\Shivani\Source\Repos\CleaningCoreApp\cleaninguitesting\obj\Debug\netcoreapp2.0\CleaningUITesting.csprojResolveAssemblyReference.cache
