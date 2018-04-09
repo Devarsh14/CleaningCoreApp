@@ -113,6 +113,6 @@ dotnet webapi wit action resutl return result in various format
             return new JsonResult(cleaningservicetypes);
 
 new JsonResult(LinqQueryResult);            
-
+Install-Package bootstrap
 
 */
