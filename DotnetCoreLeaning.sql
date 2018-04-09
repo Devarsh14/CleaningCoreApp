@@ -88,8 +88,8 @@ dotnet ef dbcontext scaffold "Server=localhost;Database=CleaningSoftwareLogic;Us
 --How to use windows authentication to run entity framework core 
 -----------------------
 
--- Desktop Sql server Ef core command to run coder 
---Scaffold-DbContext "Data Source=Shivangini;Initial Catalog=CleaningSoftwareLogic;Integrated Security=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Force
+-- Desktop Sql server Ef core command to run coder -- run below command inside the package manager console
+--Scaffold-DbContext "Data Source=Shivangini;Initial Catalog=CleaningSoftwareLogic;Integrated Security=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Model -Force
 
 
 
@@ -100,3 +100,19 @@ dotnet ef dbcontext scaffold "Server=localhost;Database=CleaningSoftwareLogic;Us
 
 
 -- Keeep using things it will makes you master. 
+
+
+
+-- Programming part -0---
+
+/*
+dotnet webapi wit action resutl return result in various format 
+
+1. JsonResult implementation 
+ var cleaningservicetypes = dbcontext.CleaningServiceType.ToList();
+            return new JsonResult(cleaningservicetypes);
+
+new JsonResult(LinqQueryResult);            
+
+
+*/
