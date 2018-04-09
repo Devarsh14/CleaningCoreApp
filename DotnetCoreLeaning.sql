@@ -83,3 +83,7 @@ dotnet ef dbcontext scaffold "Server=localhost;Database=CleaningSoftwareLogic;Us
 -- Final working command with overide
 -- dotnet ef dbcontext scaffold "Server=localhost;Database=CleaningSoftwareLogic;User ID=dev2;Password=Dcs1989.." Microsoft.EntityFrameworkCore.SqlServer -o Model -f
 */
+
+-------------------------
+--How to use windows authentication to run entity framework core 
+-----------------------
