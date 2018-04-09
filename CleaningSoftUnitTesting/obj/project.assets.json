@@ -5621,6 +5621,9 @@
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
       "projectUniqueName": "C:\\Users\\Shivani\\Source\\Repos\\CleaningCoreApp\\cleaningsoftunittesting\\CleaningSoftUnitTesting.csproj",
       "projectName": "CleaningSoftUnitTesting",
@@ -5684,5 +5687,13 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\Shivani\\Source\\Repos\\CleaningCoreApp\\cleaningsoftunittesting\\obj\\CleaningSoftUnitTesting.csproj.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
