@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using cleaningsoftWebApp.Model;
+using cleaningsoftWebApp.Models;
 
 
 namespace cleaningsoftWebApp.Controllers
