@@ -43,9 +43,8 @@ Install EF core on mac
 
 2. to use dotnet ef command on CLI need to add cli itergrop entry for cli project on efcore
 2.1 please add following entry inside the .csproj file where you are planning to run EFCore. 
-<ItemGroup>
-  <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.0" />
-</ItemGroup>
+
+
 -- Item group entry makes clic command working in csproj files.
 */
 
