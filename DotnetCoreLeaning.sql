@@ -87,3 +87,6 @@ dotnet ef dbcontext scaffold "Server=localhost;Database=CleaningSoftwareLogic;Us
 -------------------------
 --How to use windows authentication to run entity framework core 
 -----------------------
+
+-- Desktop Sql server Ef core command to run coder 
+--Scaffold-DbContext "Data Source=Shivangini;Initial Catalog=CleaningSoftwareLogic;Integrated Security=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Force

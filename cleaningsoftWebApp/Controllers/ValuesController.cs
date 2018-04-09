@@ -42,3 +42,6 @@ namespace cleaningsoftWebApp.Controllers
         }
     }
 }
+
+
+//Scaffold-DbContext "Data Source=Shivangini;Initial Catalog=CleaningSoftwareLogic;Integrated Security=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Force
