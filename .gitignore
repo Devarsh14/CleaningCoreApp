@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/CleaningCoreApp/v15
+/CleaningUITesting/obj/Debug/netcoreapp2.0/CleaningUITesting.csprojResolveAssemblyReference.cache
