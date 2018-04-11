@@ -18,6 +18,16 @@ namespace cleaningsoftWebApp.Controllers
             var cleaningservicetypes = dbcontext.CleaningServiceType.ToList();
             return new JsonResult(cleaningservicetypes);
         }
+
+        
+        public IActionResult home()
+        {
+            var cleaningservicetypes = dbcontext.CleaningServiceType.ToList();
+            return View (cleaningservicetypes);
+        }
+
+
+
     }
 }
 
