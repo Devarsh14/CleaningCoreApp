@@ -16,8 +16,20 @@ namespace cleaningsoftWebApp.Controllers
         [HttpGet("/api/cleaningServiceTypes")]
         public IActionResult Index()
         {
-            return new JsonResult(dbcontext.CleaningServiceType.ToList());
+            var cleaningservicetypes = dbcontext.CleaningServiceType.ToList();
+            return new JsonResult(cleaningservicetypes);
         }
+
+        
+        public IActionResult home()
+        {
+            
+            var cleaningservicetypes = dbcontext.CleaningServiceType.ToList();
+            return View (cleaningservicetypes);
+        }
+
+
+
     }
 }
 
