@@ -9,6 +9,11 @@ INSERT into Cleaning_Service_Type (Service_Type_Name) VALUES ('House Cleaning'),
 
 
 --SELECT * from Cleaning_Service_Type
+Insert INTO Cleaning_Worker_Type(Emploument_Type) values ('Permanent')
+,('Casual')
+,('Contractor')
+,('Agency Hire')
+,('SunContractor')
 
 
 
