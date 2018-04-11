@@ -43,9 +43,8 @@ Install EF core on mac
 
 2. to use dotnet ef command on CLI need to add cli itergrop entry for cli project on efcore
 2.1 please add following entry inside the .csproj file where you are planning to run EFCore. 
-<ItemGroup>
-  <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.0" />
-</ItemGroup>
+
+
 -- Item group entry makes clic command working in csproj files.
 */
 
@@ -72,16 +71,16 @@ CREATE USER dev2 FOR LOGIN dev2
 EXEC sp_addrolemember N'db_owner', N'dev2'
 */
 /*
-dotnet ef dbcontext scaffold "Server=localhost;Database=CleaningSoftwareLogic;User ID=dev2;Password=Dcs1989.." Microsoft.EntityFrameworkCore.SqlServer -o Model
+dotnet ef dbcontext scaffold "Server=localhost;Database=CleaningSoftwareLogic;User ID=dev2;Password=Dcs1989.." Microsoft.EntityFrameworkCore.SqlServer -o Models
 */
 
 -- below command will no work in password ! mark creates an erro
---dotnet ef dbcontext scaffold "Server=localhost\;Database=CleaningSoftwareLogic;User ID=sa;Password=Dcs1989..!" Microsoft.EntityFrameworkCore.SqlServer -o Model
+--dotnet ef dbcontext scaffold "Server=localhost\;Database=CleaningSoftwareLogic;User ID=sa;Password=Dcs1989..!" Microsoft.EntityFrameworkCore.SqlServer -o Models
 
 /*
 6.
 -- Final working command with overide
--- dotnet ef dbcontext scaffold "Server=localhost;Database=CleaningSoftwareLogic;User ID=dev2;Password=Dcs1989.." Microsoft.EntityFrameworkCore.SqlServer -o Model -f
+-- dotnet ef dbcontext scaffold "Server=localhost;Database=CleaningSoftwareLogic;User ID=dev2;Password=Dcs1989.." Microsoft.EntityFrameworkCore.SqlServer -o Models -f
 */
 --Microsoft.EntityFrameworkCore need to install.
 -------------------------
@@ -116,3 +115,8 @@ new JsonResult(LinqQueryResult);
 Install-Package bootstrap
 
 */
+
+-- 
+-- Changed project type from Webapi to mvc becase MVC also can create an Api as well and Mvc is easier to organise file structure and quickly run models and controler
+-- You can create a view and API from same controller in .net core
+-----

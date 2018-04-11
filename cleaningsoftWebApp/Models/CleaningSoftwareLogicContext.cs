@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace cleaningsoftWebApp.Model
+namespace cleaningsoftWebApp.Models
 {
     public partial class CleaningSoftwareLogicContext : DbContext
     {
@@ -15,7 +15,7 @@ namespace cleaningsoftWebApp.Model
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlServer(@"Data Source=Shivangini;Initial Catalog=CleaningSoftwareLogic;Integrated Security=True;");
+                optionsBuilder.UseSqlServer(@"Server=localhost;Database=CleaningSoftwareLogic;User ID=dev2;Password=Dcs1989..");
             }
         }
 

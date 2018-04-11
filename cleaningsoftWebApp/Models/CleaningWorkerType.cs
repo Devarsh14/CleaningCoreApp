@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace cleaningsoftWebApp.Model
+namespace cleaningsoftWebApp.Models
 {
     public partial class CleaningWorkerType
     {
