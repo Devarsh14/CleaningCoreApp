@@ -13,14 +13,13 @@ namespace cleaningsoftWebApp.Controllers
     {
         CleaningSoftwareLogicContext dbcontext = new CleaningSoftwareLogicContext();
         
-        [HttpGet("/api/cleaningServiceTypes")]
+       
         public IActionResult Index()
         {
-            var cleaningservicetypes = dbcontext.CleaningServiceType.ToList();
-            return new JsonResult(cleaningservicetypes);
+            return new JsonResult(dbcontext.CleaningServiceType.ToList());
         }
+        // [HttpGet("/api/cleaningServiceTypes")]
 
-        
         public IActionResult home()
         {
             
