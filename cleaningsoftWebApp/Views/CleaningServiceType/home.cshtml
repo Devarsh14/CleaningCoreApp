@@ -1,0 +1,18 @@
+﻿@model IList<cleaningsoftWebApp.Models.CleaningServiceType>
+@{
+    ViewData["Title"] = "home";
+}
+
+
+@foreach(var t in Model)
+{<table>
+    
+     <tr>
+         <td>
+             @t.ServiceTypeName
+         </td>
+     </tr>
+    </table>
+    
+    
+}
