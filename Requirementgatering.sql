@@ -63,3 +63,5 @@ DROP TABLE Cleaning_Service_Providers
 */
 -- Name of Cleaning company and which  kind of services one cleaning company can provide to the customer 
 -- Many cleaning company can provide multiple services to the customer 
+--docker ps -a
+--docker container start f2c7f11b781c
