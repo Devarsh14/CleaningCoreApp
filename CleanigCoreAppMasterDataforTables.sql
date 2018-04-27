@@ -1,5 +1,6 @@
 -- cleaning services can be provides by cleaning company as type -- like 
 
+use CleaningSoftwareLogic
 INSERT into Cleaning_Service_Type (Service_Type_Name) VALUES ('House Cleaning'),
 ('Commercial Cleaning'),
 ('Industrial Cleaning'),
