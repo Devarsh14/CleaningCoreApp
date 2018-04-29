@@ -13127,12 +13127,15 @@
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Shivani\\Source\\Repos\\CleaningCoreApp\\cleaningsoftWebApp\\cleaningsoftWebApp.csproj",
+      "projectUniqueName": "C:\\Users\\Shivani\\Source\\Repos\\CleaningCoreApp\\cleaningsoftwebapp\\cleaningsoftWebApp.csproj",
       "projectName": "cleaningsoftWebApp",
-      "projectPath": "C:\\Users\\Shivani\\Source\\Repos\\CleaningCoreApp\\cleaningsoftWebApp\\cleaningsoftWebApp.csproj",
+      "projectPath": "C:\\Users\\Shivani\\Source\\Repos\\CleaningCoreApp\\cleaningsoftwebapp\\cleaningsoftWebApp.csproj",
       "packagesPath": "C:\\Users\\Shivani\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Shivani\\Source\\Repos\\CleaningCoreApp\\cleaningsoftWebApp\\obj\\",
+      "outputPath": "C:\\Users\\Shivani\\Source\\Repos\\CleaningCoreApp\\cleaningsoftwebapp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
