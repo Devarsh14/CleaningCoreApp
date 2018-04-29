@@ -14,7 +14,9 @@ namespace cleaningsoftWebApp.Controllers
         CleaningSoftwareLogicContext dbcontext = new CleaningSoftwareLogicContext();
         
        
-        public IActionResult Index()
+        [HttpGet]
+         [Route("api/ServiceTypeApi")] 
+        public IActionResult ServiceTypeApi()
         {
             return new JsonResult(dbcontext.CleaningServiceType.ToList());
         }
@@ -24,7 +26,7 @@ namespace cleaningsoftWebApp.Controllers
         {
             
             var cleaningservicetypes = dbcontext.CleaningServiceType.ToList();
-            return View (cleaningservicetypes);
+            return View ();
         }
 
 
