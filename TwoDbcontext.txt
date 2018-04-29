@@ -4,3 +4,92 @@
 //dotnet ef dbcontext scaffold "Server=localhost;Database=CleaningSoftwareLogic;User ID=dev2;Password=Dcs1989.." Microsoft.EntityFrameworkCore.SqlServer -o Models -f
 
 This file provide knowledge base for how to change a dbcontext in two diffrent set of programmes and how can we chnage datastructure without much hassel by just changin security key 
+
+select * from Cleaning_Service_Providers
+select * from Cleaning_Service_Type
+select * from Cleaning_Worker_Type
+
+
+---> Need a table of sites ---> how many sites are availale to serve 
+----> which cleaning service providers are mananign which sites 
+---> this can in future be generic can be provider to multiple agencies to get idea how contactor or
+
+-- Contractor managmetn system --> future scope 
+--> or in big organisation service provider company and their subordinates works --> find pattern and choose a best compny which outperforms others and hire that kind of contractor more often. 
+--> issue tracking --> cleaner will get their daily schedule with problems what went wrong on site 
+--> cleaners need to close issue on mobile phone to verify work has been done. 
+--> attach a picture with time tagging 
+--> more over ask for the video --> with specific picture or password in hand and upload so we can verify that work has been done or ask for selfie  on floor with particular words that work has been done to verify taks complted. 
+
+
+
+
+----> so need register for ---> cleaning service provider for the site 
+---> How many empoyees are working for that particular cleaing contractor or service provider 
+---> Which kind of service provides by service privider 
+---> which kind of duties performed by employee on particular site 
+
+---> list of area to service on site 
+---> that means how we define particular area in one site --> in how many section we divide site 
+--> its kind of organisational tagging of the site 
+--> so any one new who comes to the site can have idea whre exactly problem is happning for cleaning purpose and they do not have to find areas on site
+
+---> we introduces new feature called cleaning mapping of the site 
+--> cleaning mapping will help where problem is located 
+--> and which place need to be solved 
+--> breaking down areas and mapping will help us to undersatnd in future which areas are more problematic 
+--> will help us to find out pattern on what days some areas will require more attention 
+--> able to clean area  in more organised manner 
+
+
+---> need to provide a register of area's to clean in one site 
+
+---> So how work flow will flow for particular site 
+/*
+SETUP FOR THE SITE 
+
+1. cleaning service provider  -- can be a ABN personal or Company 
+2. List of cleaners associated with that cleaning service provider  --- And how they pay them  --> This will be able to help in future which kind of employees do better than others in general in cleaning industry --> Insight 
+--> if we will find pattern which kind of employees are better than others than we can encourage service providers to hire that kind of employees --> this will be identified by list of errors at particular site 
+3. Register for sitename : this will have related cleaning service provider or employees dirctly by cleaning company 
+--> parent child relationship if employess are assocaited with cleanign service provider 
+
+4. 
+*/
+
+--- what will we need --
+-- register of employees -- --> that will provides us the detail all the details of the employee 
+--> register of the cleaning employee and employment type mapping 
+
+---> table which provides all the details for ---> cleaning service provieder ---> their employee -> type of employeeww 
+
+
+
+
+--> Issue tracking mechanism is very necessary -> 
+--For example, IF cleaners have done Genuine try for atlease 2-3 times than issue will be escalted to Supervisour level 
+-->than it's supervisor's responsibility to solve the issue if cleaners can not solve even if they try Geniunely 
+--> supervisor need to perform a site visit and need to identify the root casue and resolve the Genuine issue.
+
+--> The cleaning company do this kind of activity they will be able to succeed , rathar than just leaving everything on to the cleaner. 
+--If you are a supervisour than you have more problem solving skills --> come to cleaners and help them 
+-- > do not just send emails to the cleaners and tell them to do that
+--> show cleaners how to solve that issue. verify with client that issue has been resolved than next time remind cleaners to do this job via email if happnes again with email. 
+--> issue tracking will create a knowlsge base how to solve the most common issue in cleaning and train people. 
+--> even cleaners can come to issue tracking and solve it. 
+--> if employee changes last employee did not share knowldge no isssue, we will have insight and train new cleaner very quickly --win win for cleaners and supervisors 
+--. cleaners get more knowledge and supervisors get more insights to train a new people 
+--> reason this a very volatile industry, and most of the people work part time or just during pass therir student life. 
+
+
+-- New Feature --
+--- Supervisors can create a cleaning work flow of the site 
+-- they can say from where to start and were to end 
+
+
+
+-- Braking down site into the sections and names will help cleaners to understand what to do 
+--> most of the cleaners have trouble in finding pin point location of issue 
+--> if we can provide them issue name with site map with broken down in particular areas than we can resolve query quickly 
+
+
