@@ -93,3 +93,37 @@ SETUP FOR THE SITE
 --> if we can provide them issue name with site map with broken down in particular areas than we can resolve query quickly 
 
 
+Features :
+1) STOCK automation -> no queries how much stock left --> prior insight how much stock need to be orderd
+--cleaners must need to update stock as they use --> if they do not update regulary they are responsible. 
+2) Better issue tracking 
+3)better collaboration between supervisor and cleaners 
+4) can pursue building manager for better insighs of their sites 
+
+-- Primary target to hit cleaning industry 
+--> Get customers by Better services 
+-->Provide customer live tracking of issues 
+--> Customer complains 
+--> resolve 
+--> get verification form customers That issue resolved 
+--> call out on same time as customer complains if requires --> in next 3 hours on business day cleaners will be their to resolve the issue.
+** full grown building maintainance software
+
+
+
+5) task scheduling what need to do on what day if client has roating work like monday front area for dusing and wiping 
+tuesday something escalted
+
+6) Checklist of each task once completed. 
+so after finishing everything cleaner will check pain point of the site weather they are complited or not
+
+Geo taggin for the cleaners location 
+they need to provide us what time enterd what time exit 
+
+
+1.Dashboard for supervisors --> open issues 
+2. Dashboard for supervisor --> stock insights
+3. dashbaord for supervisor --> which sites are getting more issue so they can focus 
+
+
+---Had a idea for rental agencies to maintain a house or propety saas 
