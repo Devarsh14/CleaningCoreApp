@@ -14,8 +14,8 @@ namespace cleaningsoftWebApp.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-
-                optionsBuilder.UseSqlServer(@"Data Source=localhost;Initial Catalog=CleaningSoftwareLogic;User ID=dev2;Password=Dcs1989..");
+             
+                optionsBuilder.UseSqlServer(@"Data Source=Shivangini;Initial Catalog=CleaningSoftwareLogic;Integrated Security=True");
             }
         }
         //dotnet ef dbcontext scaffold "Server=localhost;Database=CleaningSoftwareLogic;User ID=dev2;Password=Dcs1989.." Microsoft.EntityFrameworkCore.SqlServer -o Models -f
