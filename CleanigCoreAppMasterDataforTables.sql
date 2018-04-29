@@ -17,4 +17,14 @@ Insert INTO Cleaning_Worker_Type(Emploument_Type) values ('Permanent')
 ,('SunContractor')
 
 
+-- Inserting multiple values into tabel Cleaning service provider 
+insert Into Cleaning_Service_Providers ([Company_Name])
+SELECT 'JJSmith' 
+UNION ALL 
+SELECT 'DCS Organisation ltd'
+UNION ALL 
+SELECT 'RIPAL Shukla org ltd'
+
+
+
 
