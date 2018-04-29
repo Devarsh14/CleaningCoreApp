@@ -1,0 +1,16 @@
+﻿@model IEnumerable<cleaningsoftWebApp.Models.CleaningServiceProviders>
+@{
+    ViewData["Title"] = "Index";
+}
+
+@foreach(var providers in Model)
+{
+<ol>
+
+
+    <li>
+        @providers.CompanyName
+    </li>
+</ol>
+}
+

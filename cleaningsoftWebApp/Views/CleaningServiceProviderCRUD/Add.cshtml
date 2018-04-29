@@ -1,0 +1,18 @@
+﻿@model cleaningsoftWebApp.Models.CleaningServiceProviders
+
+@{
+    ViewData["Title"] = "Add";
+}
+
+<h2>Add a new sevice vendor </h2>
+
+@using (Html.BeginForm("Add", "CleaningServiceProviderCRUD"))
+{
+ <div class="form-group">
+     @Html.LabelFor(t=>t.CompanyName)
+     @Html.TextBoxFor(t=>t.CompanyName)
+
+ </div>
+<button type="submit" class="btn btn-primary">add</button>
+}
+
