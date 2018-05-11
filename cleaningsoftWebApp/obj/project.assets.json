@@ -13127,11 +13127,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Dev/CleaningCoreApp/cleaningsoftWebApp/cleaningsoftWebApp.csproj",
+      "projectUniqueName": "/Users/Dev/CleaningCoreApp/cleaningsoftwebapp/cleaningsoftWebApp.csproj",
       "projectName": "cleaningsoftWebApp",
-      "projectPath": "/Users/Dev/CleaningCoreApp/cleaningsoftWebApp/cleaningsoftWebApp.csproj",
+      "projectPath": "/Users/Dev/CleaningCoreApp/cleaningsoftwebapp/cleaningsoftWebApp.csproj",
       "packagesPath": "/Users/Dev/.nuget/packages/",
-      "outputPath": "/Users/Dev/CleaningCoreApp/cleaningsoftWebApp/obj/",
+      "outputPath": "/Users/Dev/CleaningCoreApp/cleaningsoftwebapp/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
