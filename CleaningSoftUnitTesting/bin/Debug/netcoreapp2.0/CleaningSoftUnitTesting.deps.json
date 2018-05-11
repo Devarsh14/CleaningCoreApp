@@ -6,14 +6,14 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.0": {
-      "CleaningUITesting/1.0.0": {
+      "CleaningSoftUnitTesting/1.0.0": {
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "15.3.0-preview-20170628-02",
           "xunit": "2.2.0",
           "xunit.runner.visualstudio": "2.2.0"
         },
         "runtime": {
-          "CleaningUITesting.dll": {}
+          "CleaningSoftUnitTesting.dll": {}
         }
       },
       "Microsoft.CSharp/4.0.1": {
@@ -1027,7 +1027,7 @@
     }
   },
   "libraries": {
-    "CleaningUITesting/1.0.0": {
+    "CleaningSoftUnitTesting/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
