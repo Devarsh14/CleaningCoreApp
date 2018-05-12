@@ -24,7 +24,7 @@ namespace cleaningsoftWebApp.Controllers
 
         public IActionResult home()
         {
-            int a; int a; int a; int a; int a;
+            int a; int ha; int ah; int ya; int ea;
 
             var cleaningservicetypes = dbcontext.CleaningServiceType.ToList();
             return View ();
