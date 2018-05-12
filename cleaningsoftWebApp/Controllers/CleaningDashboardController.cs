@@ -14,6 +14,6 @@ namespace cleaningsoftWebApp.Controllers
         //public IActionResult ServiceTypeApi()
         //{
             
-        //}
+        //} 
     }
 }
