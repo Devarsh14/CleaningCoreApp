@@ -34,3 +34,112 @@ INSERT into cleaner_detail([cleaner_detail_name])  values ('Demitry')
 INSERT into cleaner_detail([cleaner_detail_name])  values ('Rosesh')
 INSERT into cleaner_detail([cleaner_detail_name])  values ('Jalpa')
 INSERT into cleaner_detail([cleaner_detail_name])  values ('Jaymin')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('3b66433e-f36b-1410-88d3-003b174aa397','Clean floor')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('3b66433e-f36b-1410-88d3-003b174aa397','Clean rubbish')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('3b66433e-f36b-1410-88d3-003b174aa397','bin')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('3b66433e-f36b-1410-88d3-003b174aa397','Janclean')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('3b66433e-f36b-1410-88d3-003b174aa397','Nappies')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('3b66433e-f36b-1410-88d3-003b174aa397','Sanitary bins')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('3b66433e-f36b-1410-88d3-003b174aa397','Main frame')
+
+
+
+
+
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('3b66433e-f36b-1410-88d3-003b174aa397','Clean floor')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('3b66433e-f36b-1410-88d3-003b174aa397','Clean rubbish')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('3b66433e-f36b-1410-88d3-003b174aa397','bin')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('3b66433e-f36b-1410-88d3-003b174aa397','Janclean')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('3b66433e-f36b-1410-88d3-003b174aa397','Nappies')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('3b66433e-f36b-1410-88d3-003b174aa397','Sanitary bins')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('3b66433e-f36b-1410-88d3-003b174aa397','Main frame')
+
+
+
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('4166433e-f36b-1410-88d3-003b174aa397','Clean floor')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('4166433e-f36b-1410-88d3-003b174aa397','Clean rubbish')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('4166433e-f36b-1410-88d3-003b174aa397','bin')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('4166433e-f36b-1410-88d3-003b174aa397','Janclean')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('4166433e-f36b-1410-88d3-003b174aa397','Nappies')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('4166433e-f36b-1410-88d3-003b174aa397','Sanitary bins')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('4166433e-f36b-1410-88d3-003b174aa397','Main frame')
+
+
+
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('4766433e-f36b-1410-88d3-003b174aa397','Clean floor')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('4766433e-f36b-1410-88d3-003b174aa397','Clean rubbish')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('4766433e-f36b-1410-88d3-003b174aa397','bin')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('4766433e-f36b-1410-88d3-003b174aa397','Janclean')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('4766433e-f36b-1410-88d3-003b174aa397','Nappies')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('4766433e-f36b-1410-88d3-003b174aa397','Sanitary bins')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('4766433e-f36b-1410-88d3-003b174aa397','Main frame')
+
+
+
+
+
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('4d66433e-f36b-1410-88d3-003b174aa397','Clean floor')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('4d66433e-f36b-1410-88d3-003b174aa397','Clean rubbish')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('4d66433e-f36b-1410-88d3-003b174aa397','bin')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('4d66433e-f36b-1410-88d3-003b174aa397','Janclean')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('4d66433e-f36b-1410-88d3-003b174aa397','Nappies')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('4d66433e-f36b-1410-88d3-003b174aa397','Sanitary bins')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('4d66433e-f36b-1410-88d3-003b174aa397','Main frame')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('4d66433e-f36b-1410-88d3-003b174aa397','Janclean')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('4d66433e-f36b-1410-88d3-003b174aa397','Nappies')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('4d66433e-f36b-1410-88d3-003b174aa397','Sanitary bins')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('4d66433e-f36b-1410-88d3-003b174aa397','Main frame')
+
+
+
+
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('5366433e-f36b-1410-88d3-003b174aa397','Clean floor')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('5366433e-f36b-1410-88d3-003b174aa397','Clean rubbish')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('5366433e-f36b-1410-88d3-003b174aa397','bin')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('5366433e-f36b-1410-88d3-003b174aa397','Janclean')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('5366433e-f36b-1410-88d3-003b174aa397','Nappies')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('5366433e-f36b-1410-88d3-003b174aa397','Sanitary bins')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('5366433e-f36b-1410-88d3-003b174aa397','Main frame')
+
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('5366433e-f36b-1410-88d3-003b174aa397','Clean floor')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('5366433e-f36b-1410-88d3-003b174aa397','Clean rubbish')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('5366433e-f36b-1410-88d3-003b174aa397','bin')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('5366433e-f36b-1410-88d3-003b174aa397','Janclean')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('5366433e-f36b-1410-88d3-003b174aa397','Nappies')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('5366433e-f36b-1410-88d3-003b174aa397','Sanitary bins')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('5366433e-f36b-1410-88d3-003b174aa397','Main frame')
+
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('5366433e-f36b-1410-88d3-003b174aa397','Clean floor')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('5366433e-f36b-1410-88d3-003b174aa397','Clean rubbish')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('5366433e-f36b-1410-88d3-003b174aa397','bin')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('5366433e-f36b-1410-88d3-003b174aa397','Janclean')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('5366433e-f36b-1410-88d3-003b174aa397','Nappies')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('5366433e-f36b-1410-88d3-003b174aa397','Sanitary bins')
+INSERT into cleaning_task_detail(cleaner_detail_id,cleaning_task_name) VALUEs('5366433e-f36b-1410-88d3-003b174aa397','Main frame')
+
+
