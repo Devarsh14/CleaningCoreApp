@@ -9,11 +9,34 @@ namespace cleaningsoftWebApp.Controllers
     using cleaningsoftWebApp.Models;
 
 
+    
     public class CleaningDashboardController : Controller
     {
-        //public IActionResult ServiceTypeApi()
-        //{
-            
-        //} 
+
+        private readonly CleaningSoftwareLogicContext cleaningSoftwareLogicContext;
+        public CleaningDashboardController(CleaningSoftwareLogicContext cleaningSoftwareLogicContext)
+        {
+            this.cleaningSoftwareLogicContext = cleaningSoftwareLogicContext;
+        }
+      // need to make a logic that we get required details from particular class
+      // DTO 
+      // ViewModel --> view model is best in this scenario 
+      // than you can populate details 
+
+        [HttpGet]
+        [Route("api/TaskDashBoard")]
+        public IActionResult TaskDetailForDash()
+        {    CleaningSoftwareLogicContext dbcontext = new CleaningSoftwareLogicContext();
+             var details=  this.cleaningSoftwareLogicContext.CleaningTaskDetail
+                                        .Include(de=>de.CleanerDetail)
+                                        
+                                        .GroupBy(t=>t.CleanerDetail.CleanerDetailName)
+                                        
+                                        .ToList();
+                                        
+             return new JsonResult(details);
+        }
+
+
     }
 }

@@ -28,3 +28,9 @@ SELECT 'RIPAL Shukla org ltd'
 
 
 
+INSERT into cleaner_detail([cleaner_detail_name])  values ('Devarsh')
+
+INSERT into cleaner_detail([cleaner_detail_name])  values ('Demitry')
+INSERT into cleaner_detail([cleaner_detail_name])  values ('Rosesh')
+INSERT into cleaner_detail([cleaner_detail_name])  values ('Jalpa')
+INSERT into cleaner_detail([cleaner_detail_name])  values ('Jaymin')
