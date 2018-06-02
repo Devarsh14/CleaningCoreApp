@@ -114,3 +114,96 @@ CREATE TABLE [Cleaning_Worker_Type]
 )
 ALTER TABLE Cleaning_Worker_Type ADD CONSTRAINT PK_Cleaning_worker_type_ID PRIMARY KEY (ID);
 ALTER TABLE [Cleaning_Worker_Type] add  CONSTRAINT Cleaning_worker_Type_ID_Default DEFAULT  NEWSEQUENTIALID () for ID
+
+IF OBJECT_Id
+('[dbo].[Cleaner_Detail]', 'U') IS NOT NULL
+DROP TABLE [dbo].[Cleaner_Detail] 
+GO
+CREATE TABLE [dbo].[Cleaner_Detail]
+(
+-- Primary Key Id
+  [Id] UNIQUEIDENTIFIER NOT NULL
+  ,[Cleaner_Detail_Name]    NVARCHAR(300)
+  --,[Cleaner_Level_ID]     UNIQUEIDENTIFIER -- need to create a table
+  ,[Cleaner_Detail_Start_Date] DATETIME
+  ,[Cleaning_worker_type_ID] UNIQUEIDENTIFIER
+  -- Name -- level -- startdate -- type (permanent, contractor, casual,Franchiese)
+)
+-- Primary key
+ALTER TABLE [dbo].[Cleaner_Detail] ADD CONSTRAINT PK_DBO_Cleaner_Detail PRIMARY KEY ([Id])
+-- Default constraints
+ALTER TABLE [dbo].[Cleaner_Detail] ADD CONSTRAINT DF_DBO_Cleaner_Detail_Id DEFAULT newsequentialid() FOR [Id]
+GO
+
+
+
+
+IF OBJECT_Id
+('[dbo].[Cleaning_Task_Detail]', 'U') IS NOT NULL
+DROP TABLE [dbo].[Cleaning_Task_Detail] 
+GO
+CREATE TABLE [dbo].[Cleaning_Task_Detail]
+(
+-- Primary Key Id
+  [Id] UNIQUEIDENTIFIER NOT NULL
+,[Cleaner_detail_ID]  UNIQUEIDENTIFIER  --cleaner assigned taks
+,[Cleaning_Task_Task_Detail] Nvarchar(400)-- task details 
+,[Cleaning_Task_Name]   Nvarchar(200)-- TaskName, 
+,[Cleaning_Task_Detail_ID] int--TaskID,
+
+ ,[Cleaning_Task_Assigned_By_ID]  UNIQUEIDENTIFIER -- need to create a ID who can assign  a cleaning task --,TaskAssignedByf
+ ,[Cleaning_Task_difficulty_ID] UNIQUEIDENTIFIER  --,TaskDifficulrty(newTable)
+ ,[Cleaning_task_Type_ID] UNIQUEIDENTIFIER  --taskType(one-of or Recurring)
+
+ , CONSTRAINT FK_DBO_Cleaning_Task_Detail_01 FOREIGN KEY ([Cleaner_detail_ID]) REFERENCES [dbo].[Cleaner_detail] ([Id])
+
+)
+-- Primary key
+ALTER TABLE [dbo].[Cleaning_Task_Detail] ADD CONSTRAINT PK_DBO_Cleaning_Task_Detail PRIMARY KEY ([Id])
+
+-- Default constraints
+ALTER TABLE [dbo].[Cleaning_Task_Detail] ADD CONSTRAINT DF_DBO_Cleaning_Task_Detail_Id DEFAULT newsequentialid() FOR [Id]
+GO
+
+
+
+
+
+
+
+-- IF OBJECT_Id
+-- ('[dbo].[Cleaning_Task_Detail]', 'U') IS NOT NULL
+-- DROP TABLE [dbo].[Cleaning_Task_Detail] 
+-- GO
+-- CREATE TABLE [dbo].[Cleaning_Task_Detail]
+-- (
+-- -- Primary Key Id
+--   [Id] UNIQUEIDENTIFIER NOT NULL
+	
+	
+-- 	,
+--   CONSTRAINT FK_DBO_Cleaning_Task_Detail_01 FOREIGN KEY ([Cleaning_Task_Detail_Type_Id]) REFERENCES [dbo].[Cleaning_Task_Detail_Type] ([Id])
+
+-- )
+
+-- -- Clustered index
+-- CREATE CLUSTERED INDEX IX_CLUST_DBO_Cleaning_Task_Detail ON [dbo].[Cleaning_Task_Detail] ([Cleaning_Task_Detail_Identifier])
+
+-- -- Unique constraint
+-- CREATE UNIQUE NONCLUSTERED INDEX [UQ_DBO_Cleaning_Task_Detail_01] 
+-- 	ON [dbo].[Cleaning_Task_Detail] ([Cleaning_Task_Detail_Label], [Cleaning_Task_Detail_Type_Id])
+
+-- -- Primary key
+-- ALTER TABLE [dbo].[Cleaning_Task_Detail] ADD CONSTRAINT PK_DBO_Cleaning_Task_Detail PRIMARY KEY ([Id])
+
+-- -- Self referencing key
+-- --ALTER TABLE [dbo].[Cleaner_Info] ADD  CONSTRAINT FK_DBO_Cleaning_Task_Detail_04 FOREIGN KEY ([Parent_Cleaning_Task_Detail_Id]) REFERENCES [dbo].[Cleaning_Task_Detail] ([Id])
+
+-- -- Default constraints
+-- ALTER TABLE [dbo].[Cleaning_Task_Detail] ADD CONSTRAINT DF_DBO_Cleaning_Task_Detail_Id DEFAULT newsequentialid() FOR [Id]
+-- --ALTER TABLE [dbo].[Cleaning_Task_Detail] ADD CONSTRAINT DF_DBO_Cleaning_Task_Detail_MUST_BE_DISPLAYED DEFAULT 1 FOR [Must_Be_Displayed]
+
+-- GO
+
+
+SELECT * from Cleaner_Detail
