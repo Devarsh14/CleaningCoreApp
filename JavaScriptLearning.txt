@@ -106,3 +106,34 @@ var ctx = myChart.getContext('2d');
 
 
 so if anytime any element is not found than create your own element 
+
+
+
+
+
+---- How to add new Js library in views or 
+1. Installl using bower 
+or copy js file in wwwroot/lib/ --- copy JS library in lib folder
+
+2.  it will not work in <script> tag untill you configure it to work 
+
+3. _layout.cshtml page 
+add library reference 
+here for chartJs library i Have provided reference till the ChartJs.js file. 
+Example ::
+<script src="~/lib/chart.js/dist/chart.js"></script>-------Literally write down the path for the acutal file till/dist / chat.js and magic happnes …. 
+
+
+-- :::::: Bang Bang its done your charts working.....
+
+<environment include="Development"> 
+
+<script src="~/lib/jquery/dist/jquery.js"></script> 
+
+<script src="~/lib/bootstrap/dist/js/bootstrap.js"></script> 
+
+<script src="~/lib/chart.js/dist/chart.js"></script>-------Literally write down the path for the acutal file till/dist / chat.js and magic happnes …. 
+
+<script src="~/js/site.js" asp-append-version="true"></script> 
+
+</environment> 
