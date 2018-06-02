@@ -1,4 +1,26 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿   
+   
+   <div class="container" style="width:300px" >
+<select name="Names" id="Names1" class="form-control" aria-placeholder="Select Name" > 
+    <option value="Dev">Devarsh</option>
+    <option value="ramesh">ramesh</option>
+    <option value="ripal">ripal</option>
+</select>    
+</div>
 
+
+
+<canvas id="myChart" width="400" height="400"></canvas>
+@section scripts{
+<script>
+
+function showalert(){
+     alert('You Clicked Button');
+}    
+document.getElementById("Names1").onclick = showalert;
+
+   
+</script>
+}
+   
+    

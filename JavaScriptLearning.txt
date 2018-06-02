@@ -1,0 +1,38 @@
+Javascript Functions ::
+
+1. define a Javascript functions using 
+function(){
+    -- Provide function details 
+    -- mainly Dom manipulation in case of Playing around with css and animations
+    -- Provide  a function details what need to be do onclick, hover or document load kind of functionality 
+    
+}
+-- example 
+function showalert(){
+     alert('You Clicked Button');
+}    
+document.getElementById("Names1").onclick = showalert; -- functions eachtime you click and work as desired 
+document.getElementById("Names1").onclick = showalert(); -- () is a execution parameter for the function is Javascript
+so, function will not work each time if you have assigned with showalert() --- will executes at Page load in Dom
+and function will not execute on click if it assign as showalert() execute ones 
+
+if Function assign with document.getElementById("Names1").onclick = showalert; 
+executes eachtime when its called 
+if assign with document.getElementById("Names1").onclick = showalert();
+execute on pageload and will not execute again and you will scratch your head....hahhah
+
+
+This function provides alert when user clicks on webpage with specific ID,
+this function only triggers when user click on a element so its onclick function 
+On click function directly can be provided to element in browser to call as well rathar than scriptinog in script
+
+<p id="para">Some text here</p>
+  <button onclick="changeColor('blue');">blue</button>
+  <button onclick="changeColor('red');">red</button>
+
+function changeColor(newColor) {
+  var elem = document.getElementById('para');
+  elem.style.color = newColor;
+}
+
+changeColor('orange');  --- This is a example why function was not working on click in my script which I have written in first block. 
