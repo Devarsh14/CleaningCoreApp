@@ -205,5 +205,30 @@ GO
 
 -- GO
 
+-- Create table 
 
-SELECT * from Cleaner_Detail
+----
+--Cleaner info -- table 
+-- Name -- level -- startdate -- type (permanent, contractor, casual,Franchiese)
+--- 
+--cleaner assigned taks
+-- task details 
+-- TaskName, 
+--TaskID,
+--TaskDetails
+--,TaskAssignedByf
+--,TaskDifficulrty(newTable)
+--taskType(one-of or Recurring)
+--task status
+
+
+--- new tables
+
+
+
+-- Task assigned by 
+-- Task type
+-- task level 
+-- task status 
+-- task difficululty 
+-- task allocate hours (how to measure hours)
