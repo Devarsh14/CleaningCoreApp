@@ -1,25 +1,34 @@
 ﻿   
    
-   <div class="container" style="width:300px" >
+   <div class="container" id ='selectDiv' style="width:300px" >
 <select name="Names" id="Names1" class="form-control" aria-placeholder="Select Name" > 
     <option value="Dev">Devarsh</option>
     <option value="ramesh">ramesh</option>
     <option value="ripal">ripal</option>
 </select>    
 </div>
-
-
-
 <canvas id="myChart" width="400" height="400"></canvas>
 @section scripts{
+
+
 <script>
 
-function showalert(){
-     alert('You Clicked Button');
-}    
-document.getElementById("Names1").onclick = showalert;
+var canvasMychartId = document.getElementById('myChart');
+var ctxforCanvasMyChart = canvasMychartId.getContext('2d');
+ctxforCanvasMyChart.fillStyle = "#FF0000";
+ctxforCanvasMyChart.fillRect(0,0,150,75);
 
-   
+
+
+function clickmessage(){
+    alert('Hey you clicked me');
+
+}
+
+
+var selectId = document.getElementById('Names1')
+selectId.onclick=clickmessage;
+
 </script>
 }
    

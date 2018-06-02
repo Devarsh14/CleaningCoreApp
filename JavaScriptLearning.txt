@@ -78,3 +78,31 @@ function myThirdFunction() {
 }
 </script>
 
+
+
+---- Canvas -----
+Important steps to work with canvas 
+-- at last finally thanks to the stakcoverflow and the MDN network from mozzila i figure out how 
+to work with Javascript and html for the canvas. 
+its quite painful but when its working its awesome .....
+
+<canvas id="myChart" width="400" height="400"></canvas>
+@section scripts{
+<script>
+var canvasMychartId = document.getElementById('myChart');
+var ctxforCanvasMyChart = canvasMychartId.getContext('2d');
+ctxforCanvasMyChart.fillStyle = "#FF0000";
+ctxforCanvasMyChart.fillRect(0,0,150,75);
+</script>
+}
+
+--- you need to enter getContext('2d') manually after the Html elemetn and need to work on that.....
+
+--- you can create your custom element using below code for the Broser something new i learn ..
+
+<canvas id="myChart" width="400" height="400"></canvas>
+var canvas = document.createElement('canvas');
+var ctx = myChart.getContext('2d');
+
+
+so if anytime any element is not found than create your own element 
