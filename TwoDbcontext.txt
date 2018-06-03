@@ -127,3 +127,12 @@ they need to provide us what time enterd what time exit
 
 
 ---Had a idea for rental agencies to maintain a house or propety saas 
+
+-- Need to add if trying to Use include in Efcore 
+1. web api with single class works fine 
+2. if you Use include and then include in that class it will not work 
+3. you need to add this exception file. for json 
+4. its something called as ciruclar 
+
+services.AddMvc().AddJsonOptions(x => x.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
+https://github.com/aspnet/Mvc/issues/5910

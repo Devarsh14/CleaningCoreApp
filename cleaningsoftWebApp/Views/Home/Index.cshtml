@@ -11,8 +11,56 @@
  <div class="container"  style="width:300px" >
 <canvas id="myChart" width="400" height="400"></canvas>
 </div>
+
+<div id ='div1'></div>
+<button>click</button>
+    
 @section scripts{
+    <script>
+      
+     
+$(document).ready(function(){
+    $("button").click(function(){
+        $.ajax({
+    type: "GET",
+    url: "/api/servicetypeapi",
+    success: function (data) {
+        console.log('sucess',data);
+          $.each(data,function(i,item){
+            });
+        ;
+        
+    }
+}); });});
+</script>
+
+
 <script>
+    var Names=[];
+    var PeningTask=[];
+
+ populateArray();
+
+ // First Do GET API 
+ // Second populate array from get EachLoop
+ //Third pass array to the bar chart
+ // create function and pass barchart to the function 
+ //and call function using pure javascript like populate array 
+ // if you put Chart out of function it will be shown but it excutes at same time when everything renders 
+ // APi javascript ,array foreachloop in ajax and function can help. 
+function populateArray(){
+
+     $.ajax({
+    type: "GET",
+    url: "/api/TaskDashBoard",
+    success: function (data) {
+        console.log('sucess',data);
+          $.each(data,function(i,item){
+             Names.push (item.cleanerName);
+             PeningTask.push(item.cleaningTask);
+            
+            });
+
 var canvasMychartId = document.getElementById('myChart');
 var ctxforCanvasMyChart = canvasMychartId.getContext('2d');
 
@@ -21,10 +69,10 @@ var ctxforCanvasMyChart = canvasMychartId.getContext('2d');
 var myChart = new Chart(ctxforCanvasMyChart, {
     type: 'bar',
     data: {
-        labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+        labels: Names,
         datasets: [{
-            label: '# of Votes',
-            data: [12, 19, 3, 5, 200, 3],
+            label: '# of Pending Tasks',
+            data: PeningTask,
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
                 'rgba(54, 162, 235, 0.2)',
@@ -54,6 +102,41 @@ var myChart = new Chart(ctxforCanvasMyChart, {
         }
     }
 });
+
+
+
+
+
+
+
+        
+        
+    }
+});    
+
+}
+
+
+$(document).ready(function(){
+    $("button").click(function(){
+        $.ajax({
+    type: "GET",
+    url: "/api/TaskDashBoard",
+    success: function (data) {
+        console.log('sucess',data);
+          $.each(data,function(i,item){
+         $("#div1").append('<li>'+item.cleanerName+ ' '+item.cleaningTask +'</li>')
+             Names.push (item.cleanerName);
+             PeningTask.push(item.cleaningTask);
+            
+            });
+        
+        
+    }
+}); });});
+
+
+
 </script>
 
 <script>

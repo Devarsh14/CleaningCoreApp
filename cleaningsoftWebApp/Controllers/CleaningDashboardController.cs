@@ -27,13 +27,13 @@ namespace cleaningsoftWebApp.Controllers
         [Route("api/TaskDashBoard")]
         public IActionResult TaskDetailForDash()
         {    CleaningSoftwareLogicContext dbcontext = new CleaningSoftwareLogicContext();
-             var details=  this.cleaningSoftwareLogicContext.CleaningTaskDetail
-                                        .Include(de=>de.CleanerDetail)
-                                        
-                                        .GroupBy(t=>t.CleanerDetail.CleanerDetailName)
-                                        
-                                        .ToList();
-                                        
+             var details=  this.cleaningSoftwareLogicContext.CleanerDetail
+                             .GroupJoin(this.cleaningSoftwareLogicContext.CleaningTaskDetail,c=>c.Id,c=>c.CleanerDetailId,(CleanerDetail,CleaningTaskDetail)=>
+                             new {cleanerName= CleanerDetail.CleanerDetailName,
+                             CleaningTask=CleaningTaskDetail.Count()
+                             });
+             
+           
              return new JsonResult(details);
         }
 
